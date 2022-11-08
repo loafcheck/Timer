@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+        .background {
+            background:radial-gradient(#F0F4FF,#A5B6EE);
+            display:flex;
+            justify-content: center;
+            
+        }
+
+        .timerBox {
+            width: 400px;
+            height: 360px;
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            flex-direction:column;
+            background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+            color:white;
+            font-family: Pretendard-Regular;
+            font-weight: 700;
+            font-size: 24px;
+            border-radius: 5%;
+            margin: 440px 180px;
+            
+        }
+        p{
+            display:block;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <article class="background">
+        <div class="timerBox">
+
+            <p >TIMER</p>
+
+            <div class="btn_wrapper" id="demo">
+                <!-- <span class="hour">00</span>
+                <span class="divider">:</span>
+                <span class="minute">00</span>
+                <span class="divider">:</span>
+                <span class="second">00</span> -->
+            </div>
+
+            <div class="btn_wrapper">
+                <button>start</button>
+                <button>reset</button>
+            </div>
+        
+    </article>
+
+    <script src="main.js"></script>
+
+
+
+
+
+
+    
+</body>
+</html>
